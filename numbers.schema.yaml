@@ -3,7 +3,7 @@
 
 schema:
   schema_id: numbers
-  name: 數字之道
+  name: 鄭碼
   version: "4"
 
 engine:
