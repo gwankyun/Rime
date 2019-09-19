@@ -25,17 +25,17 @@ translator:
 
 speller:
   algebra:
-    - 'abbrev/^([a-z]).+$/$1/'
-    - 'abbrev/^([zcs]h).+$/$1/'
+#    - 'abbrev/^([a-z]).+$/$1/'
+#    - 'abbrev/^([zcs]h).+$/$1/'
 
 punctuator:
   half_shape: &symtable
-    "!" : 壹
+    "!" : ！
     "@" : 貳
     "#" : 參
     "$" : [ 肆, ￥, "$", "€", "£" ]
     "%" : [ 伍, 百分之 ]
-    "^" : 陸
+    "^" : ……
     "&" : 柒
     "*" : 捌
     "(" : 玖
@@ -53,5 +53,6 @@ punctuator:
     "Z" : [ 之, 整 ]
     "D" : 第
     "H" : 號
-    "." : 點
+    "." : 。
+    "/" : 、
   full_shape: *symtable
